@@ -47,7 +47,7 @@ nav .logo {
   font-weight: bold;
 }
 nav .logo span {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 /* เมนู */
@@ -108,7 +108,7 @@ body {
 .logo {
   font-size: 28px;
   font-weight: bold;
-  color: #e63946;
+  color: #ff0015;
 }
 
 .logo span {
@@ -212,7 +212,7 @@ body {
 }
 
 .yellow:hover {
-  background: #f77f00;
+  background: #ff7300;
   transform: translateY(-3px);
 }
 
@@ -309,7 +309,7 @@ body {
   transform: translateY(-10px);
 }
 
-.red { background: #e63946; }
+.red { background: #ff0015; }
 .black { background: #222; }
 .yellow { background: #f4a261; }
 
@@ -344,7 +344,7 @@ body {
 }
 
 .about-text span {
-  color: #e63946;
+  color: #ff0015;
 }
 
 .about-text p {
@@ -380,7 +380,7 @@ body {
 }
 
 .yellow:hover {
-  background: #f77f00;
+  background: #ff7300;
   transform: translateY(-3px);
 }
 
@@ -461,9 +461,16 @@ body {
 }
 
 .tabs .active {
-  background: #e63946;
+  background: #ff0015;
   color: #fff;
 }
+
+.tabs-btn :hover{
+  background: #111;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
 
 /* Food Grid */
 .food-grid {
@@ -504,7 +511,7 @@ body {
   display: block;
   margin: 10px 0;
   font-weight: bold;
-  color: #e63946;
+  color: #ff0015;
 }
 
 .cart-btn {
@@ -522,7 +529,7 @@ body {
 }
 
 .cart-btn.red {
-  background: #e63946;
+  background: #ff0015;
   color: #fff;
   border: none;
 }
@@ -542,7 +549,9 @@ body {
 }
 
 .view-btn a:hover {
-  background: #d62828;
+   background: #111;
+  color: #fff;
+  transform: translateY(-3px);
 }
 
 /* Feedback */
